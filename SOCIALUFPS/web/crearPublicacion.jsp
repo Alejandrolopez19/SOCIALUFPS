@@ -1,11 +1,6 @@
 <%@page import="Default.*"%>
 <%@page import="java.util.*"%>
 
-<%-- 
-    Document   : crearPublicacion
-    Created on : 8/04/2020, 10:25:55 PM
-    Author     : Johan
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -23,7 +18,7 @@
         Calendar fecha = new GregorianCalendar();
         
         int año = fecha.get(Calendar.YEAR);
-        int mes = fecha.get(Calendar.MONTH)+1;
+        int mes = fecha.get(Calendar.MONTH);
         int dia = fecha.get(Calendar.DAY_OF_MONTH);
         
         String f = dia+"/"+mes+"/"+año; 

@@ -84,40 +84,45 @@
 
                     <div class="card my-4">
                         <h5 class="card-header">Publicar</h5>
+                            
                         <div class="card-body">
-                            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+                          
+                            
+                            Puede crear una publicacion para agregarla al inicio de cada usuario.
                             <br>
+                            <br>    
+                            
                             <a href="post.jsp?codigo=<%=codigo%>" class="btn btn-success">Crear publibicacion</a>
                         </div>
                     </div>
                     <!-- Categories Widget -->
                     <div class="card my-4">
-                        <h5 class="card-header">Categories</h5>
+                        <h5 class="card-header"></h5>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <ul class="list-unstyled mb-0">
                                         <li>
-                                            <a href="#">Web Design</a>
+                                            <a href="#">Text</a>
                                         </li>
                                         <li>
-                                            <a href="#">HTML</a>
+                                            <a href="#">Text</a>
                                         </li>
                                         <li>
-                                            <a href="#">Freebies</a>
+                                            <a href="#">Text</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6">
                                     <ul class="list-unstyled mb-0">
                                         <li>
-                                            <a href="#">JavaScript</a>
+                                            <a href="#">Text2</a>
                                         </li>
                                         <li>
-                                            <a href="#">CSS</a>
+                                            <a href="#">Text2</a>
                                         </li>
                                         <li>
-                                            <a href="#">Tutorials</a>
+                                            <a href="#">Text2</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -159,7 +164,7 @@ Integer code = pub.getCodigo();
                         </div>
                         <div class="card-footer text-muted">
                             Fecha de Publicacion: <%out.println(pub.getFecha());%>
-                            <a href="#">Conocer m√°s</a>
+                            <a href="#">Conocer m·s</a>
                         </div>
                     </div>
                     <%

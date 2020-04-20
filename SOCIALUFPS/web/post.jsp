@@ -21,7 +21,7 @@
     <body>
 
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
             <div class="container">
 
                 <a class="navbar-brand" href="#">SOCIAL UFPS</a>
@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="inicio.html">Inicio
+                            <a class="nav-link" href="inicio.jsp">Inicio
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -49,6 +49,7 @@
                 </div>
             </div>
         </nav>
+        <br>
 
 
         <!-- Page Content -->
@@ -56,8 +57,8 @@
 
 
             <div class="card mb-4">
-                <h5 class="card-header">Realizar publicaciÃ³n</h5>
-
+                <h5 class="card-header">Creando publicación</h5>
+                
                 <div class="card-body">
                     <h2 class="card-title">La red social para los estudiantes de la UFPS</h2>
 
@@ -134,7 +135,7 @@
         <!-- /.container -->
 
         <!-- Footer -->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-danger">
             <div class="container">
                 <p class="m-0 text-center text-white">Copyright &copy; Website 2020</p>
             </div>

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : crearUsuario
-    Created on : 8/04/2020, 04:04:27 PM
-    Author     : Johan
---%>
 
 <%@page import="Default.Usuario"%>
 <%@page import="Default.RedSocialDAO"%>

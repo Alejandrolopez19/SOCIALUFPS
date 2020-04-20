@@ -21,7 +21,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Crear cuenta</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,92 +45,72 @@
 
   <!-- Page Content -->
   <div class="container">
+      
 
-  
       <form action="crearUsuario.jsp" method="POST">
       <div class="card my-4">
           <h5 class="card-header">Creando cuenta Social UFPS</h5>
           <div class="card-body">
 
             <div class="input-group">
-              <label for="name">Nombre:</label>
-              <input name="nombre" type="text" class="form-control" placeholder="">  
+              <label for="name">Nombre: </label>
+              <input name="nombre" type="text" class="form-control" placeholder="Escriba su nombre..." required >  
               <br>
-            
+             <br>
             </div>
                <br>
                <div class="input-group">
-              <label for="name">Contraseña:</label>
-              <input name="pass" type="text" class="form-control" placeholder="">  
+              <label for="name">Contraseña: </label>
+              <input name="pass" type="text" class="form-control" placeholder="*********" required >  
+              <br>
               <br>
             
             </div>
              <br>
              <div class="input-group">
-             <label for="name">Código:</label>
-             <input name="codigo" type="text" class="form-control" placeholder="">
+             <label for="name">Código: </label>
+             <input name="codigo" type="text" class="form-control" placeholder="Código estudiantil" required>
+             <br>
+             <br>
            </div>
 
             </div>
-             <br>
+             
              <div class="input-group">
-             <label for="name">Email:</label>
-             <input name="email" type="email" class="form-control" placeholder="">
-           </div>
-
-            
-           <!--
-            <div>
- <ul>
- <li>
- <h2>Contactos</h2>
- <span class="required_notification">* Datos requeridos</span>
- </li>
- <li>
- <label for="name">Nombre:</label>
- <input type="text" placeholder="Carlos Rosendo Gutierrez" required />
- </li>
- <li>
- <label for="email">Email:</label>
- <input type="email" name="email" placeholder="nombre@algo.com" required />
- <span class="form_hint">Formato correcto: "nombre@algo.com"</span>
- </li>
- <li>
- <label for="website">Sitio web:</label>
- <input type="url" name="website" placeholder="http://algo.com" required
-pattern="(http|https)://.+" />
- <span class="form_hint">Formato correcto: "http://algo.com"</span>
- </li>
- <li>
- <label for="message">Mensaje:</label>
- <textarea name="message" cols="40" rows="6" required></textarea> 
- </li>
- <li>
- <button class="submit" type="submit">Enviar mensaje</button>
- </li>
- </ul>
- </div> -->
+             <label for="name">Email: </label>
+             <input name="email" type="email" class="form-control" placeholder="algo@.com" required>
              <br>
-             <span class="input-group-btn">
-                 <button class="btn btn-primary" type="submit">Siguiente</button>
-              </span>
+             <br>
+             </div>
+
+    <br>
+          
+          
+             <div align='center' class="input-group-btn">
+                 
+                 <button class="btn btn-primary" type="submit">   Crear cuenta</button>
+                  
+              </div>
+           <br>
+            
           </div>
+           
+            
       </form>
-           <img class="card-img-top" src="https://ufpso.edu.co/images/identidadcorporativa/logo_acreditacion.png" alt="Card image cap">
+          
         </div>
 
-aqui
-    
 
-    </div>
+    
     <!-- /.row -->
 
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-danger">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Website 2020</p>
+      <p class="m-0 text-center text-white">SOCIAL UFPS 2020</p>
+      
     </div>
     <!-- /.container -->
   </footer>
