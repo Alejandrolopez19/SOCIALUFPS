@@ -43,7 +43,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contactar.html">Contactar</a>
+                            <a class="nav-link" href="contactar1.html">Contactar</a>
                         </li>
                     </ul>
                 </div>
@@ -77,6 +77,9 @@
                         <input name="url" type="text" id="input" >
                     </p>
 
+                    <p>
+                        <input type="file" id="archivoimg" name="archivoimg" accept="image/png, image/jpeg">  
+                    </p>
                     <p>
                         <label for="input">Texto:    </label>
                         <input name="texto" type="text" id="input" >

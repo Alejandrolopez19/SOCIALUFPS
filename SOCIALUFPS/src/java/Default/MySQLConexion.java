@@ -14,8 +14,8 @@ import java.sql.DriverManager;
  */
 public class MySQLConexion {
     public static final String URL = "jdbc:mysql://localhost:3306/redsocial";
-    public static final String USERNAME = "reinaldo";
-    public static final String PASSWORD = "1010067588";
+    public static final String USERNAME = "admin1";
+    public static final String PASSWORD = "1234";
     
     public static Connection getConnection() throws Exception
     {

@@ -46,7 +46,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contactar.html">Contactar</a>
+                            <a class="nav-link" href="contactar1.html">Contactar</a>
                         </li>
                     </ul>
                 </div>
@@ -96,40 +96,6 @@
                         </div>
                     </div>
                     <!-- Categories Widget -->
-                    <div class="card my-4">
-                        <h5 class="card-header"></h5>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a href="#">Text</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Text</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Text</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <a href="#">Text2</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Text2</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Text2</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- Side Widget -->
 
 
@@ -186,7 +152,7 @@ Integer code = pub.getCodigo();
         <!-- /.container -->
 
         <!-- Footer -->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-danger">
             <div class="container">
                 <p class="m-0 text-center text-white">Copyright &copy; Website 2020</p>
             </div>
